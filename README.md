@@ -14,3 +14,11 @@ Just install the requirements.txt file using
 pip install -r requirements.txt
 ```
 Then just run the main.py file, import images and easily convert them to png.
+
+### A cool trick
+If you want to quickly run the python file without navigating to the directory again and again, you can easily do that by using a simple cmd file. Just create a new text document and paste the following code:
+```
+cd <path to directory>
+python main.py
+```
+then save it as a .cmd file. Now you can easily open the converter by just running a cmd file.
